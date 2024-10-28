@@ -27,11 +27,5 @@ public class Cliente {
         }
     }
 
-    public void mostrarCompra() {
-        System.out.println("Total compra de " + nombre + ":");
-        for (Producto producto : productosComprados) {
-            producto.mostarInformacion();
-        }
-        System.out.println("Costo total: $" + costoTotal);
-    }
+
 }

@@ -19,6 +19,7 @@ public class Main {
 
 
 
+
         System.out.println("Inventario:");
         laptop1.mostarInformacion();
         celular1.mostarInformacion();
